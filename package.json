@@ -1,7 +1,7 @@
 {
-  "name": "seeker",
+  "name": "fileseeker",
   "version": "1.0.0",
-  "description": "Search a project to create maps of method calls",
+  "description": "Search a project for instances of strings and store output in a file",
   "main": "seeker.js",
   "preferGlobal": true,
   "bin": {
