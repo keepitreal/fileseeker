@@ -1,0 +1,22 @@
+{
+  "name": "seeker",
+  "version": "1.0.0",
+  "description": "Search a project to create maps of method calls",
+  "main": "seeker.js",
+  "preferGlobal": true,
+  "bin": {
+      "seek": "./seeker.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darion Welch",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "es6-promise": "^3.0.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "line-reader": "^0.3.0"
+  }
+}
